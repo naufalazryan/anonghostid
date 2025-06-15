@@ -449,8 +449,8 @@
             Swal.fire({
                 title: 'Dialog Pop-up',
                 text: 'Oooppssss.. We AnonGhost Indonesian!',
-                icon: 'success', // Anda dapat mengganti ikon sesuai kebutuhan (success, error, warning, info, dll.)
-                confirmButtonText: 'OK' // Teks tombol konfirmasi
+                icon: 'success',
+                confirmButtonText: 'OK'
             });
         </script>
 
