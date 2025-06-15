@@ -58,17 +58,13 @@
 
         <video id="bg-video" autoplay muted loop>
             <source src="{{ asset('images/background.mp4') }}" type="video/mp4">
-            <!-- Tambahkan sumber video tambahan di bawah sesuai kebutuhan -->
         </video>
 
         <h1 class="ml-5 mt-14">We Are AnonGhost Indonesian !</h1>
         <div id="matrix" class="auto-style8 hidden">.</div>
 
         <script type="text/javascript">
-            <!--
             var message = "Ooooooppppssssss....! Sorry";
-
-            ///////////////////////////////////
 
             function clickIE() {
                 if (document.all) {
@@ -101,19 +97,16 @@
 
             document.oncontextmenu = new Function("return false")
 
-            // 
-            -->
-
         </script>
 
         <script type="text/javascript" language="javascript">
-            var rows = 1; // must be an odd number
+            var rows = 1; 
 
-            var speed = 10; // lower is faster
+            var speed = 10; 
 
-            var reveal = 2; // between 0 and 2 only. The higher, the faster the word appears
+            var reveal = 2; 
 
-            var effectalign = "center" //enter "center" to center it.
+            var effectalign = "center" 
 
             var w3c = document.getElementById && !window.opera;;
 
