@@ -54,8 +54,6 @@
 
     <body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
 
-        {{-- gambar disini  --}}
-
         <video id="bg-video" autoplay muted loop>
             <source src="{{ asset('images/background.mp4') }}" type="video/mp4">
         </video>
